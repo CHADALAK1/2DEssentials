@@ -96,6 +96,7 @@ void AMarioWorldCharacter::UpdateAnimation()
 	{
 		AnimState = EAnimState::E_Idle;
 	}
+	
 }
 
 void AMarioWorldCharacter::Tick(float DeltaSeconds)
