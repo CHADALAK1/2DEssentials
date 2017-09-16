@@ -17,7 +17,7 @@ class MARIOWORLD_API AEnemy : public ABaseCharacter
 public:
 	AEnemy();
 
-	UPROPERTY(EditDefaultsOnly, Category = AI)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AI)
 	class UBlackboardComponent *EnemyBlackboard;
 
 private:
