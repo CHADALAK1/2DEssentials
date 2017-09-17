@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Engine.h"
 #include "BaseCharacter.h"
 #include "TeleportPipe.h"
 #include "MarioWorldCharacter.generated.h"
@@ -29,7 +29,6 @@ enum class EAnimState : uint8
 	E_Running		UMETA(DisplayName="Running"),
 	E_Crouching		UMETA(DisplayName="Crouching"),
 	E_Teleporting	UMETA(DisplayName="Teleporting"),
-	E_Transform		UMETA(DisplayName="Transform"),
 };
 
 /**

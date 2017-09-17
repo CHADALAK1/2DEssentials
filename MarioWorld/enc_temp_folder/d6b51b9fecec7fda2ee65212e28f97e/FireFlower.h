@@ -3,23 +3,17 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "BaseCharacter.h"
-#include "Enemy.generated.h"
+#include "PowerUp.h"
+#include "FireFlower.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MARIOWORLD_API AEnemy : public ABaseCharacter
+class MARIOWORLD_API AFireFlower : public APowerUp
 {
 	GENERATED_BODY()
 	
-public:
-	AEnemy();
-
-
-
-private:
 	
 	
 	

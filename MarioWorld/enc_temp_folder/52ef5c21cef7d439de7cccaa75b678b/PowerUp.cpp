@@ -1,9 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PowerUp.h"
-#include "Components/BoxComponent.h"
 
-DEFINE_LOG_CATEGORY_STATIC(Powerup, Log, All);
 
 // Sets default values
 APowerUp::APowerUp()
@@ -13,9 +11,6 @@ APowerUp::APowerUp()
 
 	Sprite = CreateDefaultSubobject<UPaperSpriteComponent>(TEXT("Sprite"));
 	RootComponent = Sprite;
-
-	CollisionComp = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionComp"));
-	CollisionComp->SetupAttachment(RootComponent);
 
 }
 
